@@ -10,6 +10,7 @@ An obvious time lag between daily increased cases and virus concentration rollin
 From the final figure, we can see that except for the start of COVID-19 and the period when a lot of people were infected, a linear model with shifted wastewater data as the only variable can roughly predict daily increased cases.
 
 Data source:
+
 Wastewater https://github.com/biobotanalytics/covid19-wastewater-data/blob/master/wastewater_by_county.csv
 
 Daily Cases https://github.com/nytimes/covid-19-data/blob/master/us-counties.csv
