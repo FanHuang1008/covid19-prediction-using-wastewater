@@ -1,4 +1,4 @@
-# covid19-prediction-using-wastewater
+# Covid19-prediction-using-wastewater
 Individual contribution in the group project of Modern Data Analytics (B-KUL-G0Z39B) at KU Leuven
 
 When people are infected with COVID-19, even if they don’t have any symptom, the virus can still spread with their feces as well as saliva, and eventually enter the wastewater system. This allows wastewater surveillance to serve as an early warning that COVID-19 is going to spread in the community. When the virus concentration in the wastewater starts to rise, the health department can take early action to prevent the spread of COVID-19. 
@@ -11,4 +11,5 @@ From the final figure, we can see that except for the start of COVID-19 and the 
 
 Data source:
 Wastewater https://github.com/biobotanalytics/covid19-wastewater-data/blob/master/wastewater_by_county.csv
+
 Daily Cases https://github.com/nytimes/covid-19-data/blob/master/us-counties.csv
