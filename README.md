@@ -5,7 +5,11 @@ When people are infected with COVID-19, even if they don’t have any symptom, t
 
 In this project, we used the virus concentration in wastewater to predict daily increased cases in the USA by fitting a simple linear model to demonstrate the importance of wastewater surveillance.
 
+![image](https://user-images.githubusercontent.com/57203983/213888844-59af3c85-76a1-4500-a653-6a2184283081.png)
+
 An obvious time lag between daily increased cases and virus concentration rolling average can be observed from the time series plot of whole USA. Instead of using the concentration rolling average as a variable to predict the time series of increased cases, we shifted the wastewater data N (N = 1, 2,...., 15) days backward and fitted N linear models with daily increased cases as the target. Lowest MSE occurred when N = 11, so we used this model to predict daily cases and plotted the results. 
+
+![image](https://user-images.githubusercontent.com/57203983/213888864-d4e04470-329f-4b54-803a-52d0715349b9.png)
 
 From the final figure, we can see that except for the start of COVID-19 and the period when a lot of people were infected, a linear model with shifted wastewater data as the only variable can roughly predict daily increased cases.
 
